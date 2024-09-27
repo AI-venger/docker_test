@@ -21,6 +21,6 @@ jobs:
         uses: azure/container-apps-deploy-action@v1
         with:
           appSourcePath: ${{ github.workspace }}/src
-          acrName: crew-app
+          acrName: crewapp
           containerAppName: crew-app
           resourceGroup: Hackyeah2024
